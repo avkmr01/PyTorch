@@ -11,5 +11,6 @@ This folder contains basic of loggings and warnings
 __neural_network__  
 This folder contains basic neural netwoek like NN, CNN, RNN, GRU, LSTM 
 
-__image_captioning__
-Using inception_v3 as encoder and lstm as decoder, built an image captioning model
+__image_captioning__  
+Using inception_v3 as encoder and lstm as decoder, built an image captioning model  
+  
