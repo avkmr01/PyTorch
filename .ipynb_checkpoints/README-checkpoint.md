@@ -14,3 +14,5 @@ This folder contains basic neural netwoek like NN, CNN, RNN, GRU, LSTM
 __image_captioning__  
 Using inception_v3 as encoder and lstm as decoder, built an image captioning model  
   
+__neural_style_transfer__  
+It provides a way merge two images and showing it as one. With further function to create video from imagess  
