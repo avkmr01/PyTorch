@@ -1,18 +1,43 @@
 # PyTorch  
-__basics__  
-This folder contains basic operation about tensors, dataset preparations, transformations, dataset balancing  
-  
-__CNNs__  
-This folder contains basic Convolutional Neural Network architecture  
-  
-__Logging__  
-This folder contains basic of loggings and warnings  
-  
-__neural_network__  
-This folder contains basic neural netwoek like NN, CNN, RNN, GRU, LSTM 
+[__basics__](basics/) 
 
-__image_captioning__  
-Using inception_v3 as encoder and lstm as decoder, built an image captioning model  
+Foundational tutorials for understanding PyTorch:
+
+* **Tensors:** Tensor operations and manipulations.
+* **Data Preparation:** Custom dataset handling for images and text.
+* **Transformations:** Data augmentation using Albumentations.
+* **Imbalanced Data:** Techniques to handle skewed class distributions. 
   
-__neural_style_transfer__  
-It provides a way merge two images and showing it as one. With further function to create video from imagess  
+[__CNNs__](CNNs/)
+
+Implementations of popular convolutional neural networks:
+
+* [EfficientNet](CNNs/Pytorch%20EfficientNet.ipynb)
+* [GoogleNet (Inception)](CNNs/Pytorch%20GoogleNet.ipynb)
+* [LeNet-5](CNNs/Pytorch%20LeNet%20-%205.ipynb)
+* [ResNet](CNNs/Pytorch%20ResNet%20implementation.ipynb)
+* [VGG](CNNs/Pytorch%20VGG%20implementation.ipynb)
+  
+[__Logging__](`logging/logging.ipynb`)
+
+Learn how to:
+
+* Set up Python logging using config files (`.conf`, `.yaml`)
+* Track logs in `.log` format
+* Use logging in custom modules 
+  
+[__neural_network__](neural_network/Pytorch%20Neural%20Network%20example.ipynb)  
+This folder contains basic neural netwoek like: NN, CNN, RNN, GRU, LSTM. 
+
+[__image_captioning__](`image_captioning/`)
+
+Complete pipeline for image captioning using PyTorch:
+
+* Data loading
+* Model implementation
+* Utility functions 
+  
+[__neural_style_transfer__](`neural_style_transfer/`)
+
+* Implementing neural style transfer to apply artistic styles to images. 
+
